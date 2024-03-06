@@ -14,6 +14,7 @@ namespace CMP1903_A1_2324
             Testing gameTest = new Testing();
             gameTest.Test();
             gameRun.ExecuteGame();
+            Console.ReadKey();
         }
     }
 }
