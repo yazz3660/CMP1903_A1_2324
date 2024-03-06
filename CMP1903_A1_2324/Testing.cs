@@ -19,6 +19,7 @@ namespace CMP1903_A1_2324
         //Method
         public void Test()
         {
+            // Runs a test versio of the game, and checks the outputs of the rolls
             Game testGame = new Game();
             testGame.ExecuteGame();
 

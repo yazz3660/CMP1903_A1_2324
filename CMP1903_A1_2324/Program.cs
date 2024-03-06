@@ -10,6 +10,7 @@ namespace CMP1903_A1_2324
     {
         static void Main(string[] args)
         {
+            // Runs the test of the game, then the game and displays them to the console
             Game gameRun = new Game();
             Testing gameTest = new Testing();
             gameTest.Test();
