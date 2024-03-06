@@ -20,17 +20,7 @@ namespace CMP1903_A1_2324
         public void Test()
         {
             Game testGame = new Game();
-            Die testDie = new Die();
-
-            if (Debug.Assert(testDie.Roll() <= 6))
-            {
-                Console.WriteLine("Die Rolled Successfully");
-                
-            }
-            else;
-            {
-                Console.WriteLine("Die Number Outside Die Range (<6)");
-            }
+            testGame.ExecuteGame();
 
             if (testGame.TotalOfRolls() < 18)
             {
@@ -38,14 +28,14 @@ namespace CMP1903_A1_2324
                 {
                     Console.WriteLine("Total Is As Expected: " + testGame.TotalOfRolls());
                 }
-                else;
+                else
                 {
-                    Console.WriteLine("Total Was Less Than 3, Which Is Impossible: " + testGame.TotalOfRolls())
+                    Console.WriteLine("Total Was Less Than 3, Which Is Impossible: " + testGame.TotalOfRolls());
                 }
             }
-            else;
+            else
             {
-                Console.WriteLine("Total Was Greater Than 18, Which Is Impossible: " + testGame.TotalOfRolls())
+                Console.WriteLine("Total Was Greater Than 18, Which Is Impossible: " + testGame.TotalOfRolls());
             }
             
 
